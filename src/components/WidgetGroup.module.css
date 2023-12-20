@@ -1,0 +1,193 @@
+.baseLayer,
+.featureIcons {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.baseLayer {
+  border-radius: 5.83px;
+  background-color: var(--color-whitesmoke-200);
+}
+.featureIcons {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.taxes {
+  position: absolute;
+  top: calc(50% - 34.85px);
+  left: 133.19%;
+  letter-spacing: -0.29px;
+  line-height: 16.03px;
+  font-weight: 600;
+  display: none;
+}
+.iconsStatsDuplicate,
+.singleFeature {
+  position: absolute;
+  height: 40.03%;
+  width: 11.15%;
+  top: 0;
+  right: 88.85%;
+  bottom: 59.97%;
+  left: 0;
+}
+.iconsStatsDuplicate {
+  height: 42.17%;
+  width: 25.59%;
+  top: 58.01%;
+  right: 74.41%;
+  bottom: -0.18%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.salesText {
+  position: absolute;
+  top: calc(50% - 27.15px);
+  left: 34.08%;
+  letter-spacing: -0.29px;
+  line-height: 16.03px;
+  font-weight: 600;
+}
+.featureDuplicate {
+  position: absolute;
+  height: calc(100% - 2.9px);
+  width: 43.59%;
+  top: 2.8px;
+  right: 56.41%;
+  bottom: 0.1px;
+  left: 0;
+}
+.thirdFeature {
+  position: absolute;
+  height: 40.03%;
+  width: 11.15%;
+  top: 0;
+  right: 18.31%;
+  bottom: 59.97%;
+  left: 70.53%;
+}
+.iconsStatsFourth {
+  position: absolute;
+  height: 42.17%;
+  width: 37.85%;
+  top: 58.01%;
+  right: 62.15%;
+  bottom: -0.18%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.profitText {
+  position: absolute;
+  top: calc(50% - 27.15px);
+  left: 50.41%;
+  letter-spacing: -0.29px;
+  line-height: 16.03px;
+  font-weight: 600;
+}
+.fourthFeature {
+  position: absolute;
+  height: calc(100% - 2.9px);
+  width: 29.47%;
+  top: 2.8px;
+  right: 0;
+  bottom: 0.1px;
+  left: 70.53%;
+}
+.featureText,
+.placeholderBase {
+  position: absolute;
+  height: 15.01%;
+  width: 61.58%;
+  top: 77.51%;
+  right: 30.71%;
+  bottom: 7.48%;
+  left: 7.71%;
+}
+.placeholderBase {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 5.83px;
+  background-color: var(--placeholder);
+}
+.placeholderElement {
+  position: absolute;
+  height: 39.5%;
+  width: 82.84%;
+  top: 33.25%;
+  right: 8.58%;
+  bottom: 27.24%;
+  left: 8.58%;
+}
+.iconButton {
+  position: absolute;
+  top: 21.9px;
+  right: 22.3px;
+  width: 23.3px;
+  height: 23.3px;
+}
+.collusionText {
+  position: absolute;
+  width: 56.87%;
+  top: 15.25%;
+  left: 8.58%;
+  font-size: var(--font-size-sm-1);
+  letter-spacing: -0.22px;
+  line-height: 18.94px;
+  display: inline-block;
+}
+.activityLabel {
+  position: absolute;
+  top: 20.4px;
+  left: 8.58%;
+  font-size: var(--buttons-small-size);
+  letter-spacing: -0.4px;
+  line-height: 21.86px;
+  font-weight: 600;
+}
+.widget,
+.widgetBase {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.widgetBase {
+  height: 39.5%;
+  width: 82.84%;
+  top: 33.33%;
+  right: 8.64%;
+  bottom: 27.17%;
+  left: 8.52%;
+  border-radius: 5.83px;
+}
+.widgetGroup {
+  position: absolute;
+  height: 29.63%;
+  width: 20.22%;
+  top: 17.34%;
+  right: 38.82%;
+  bottom: 53.03%;
+  left: 40.96%;
+  text-align: left;
+  font-size: var(--font-size-xs-7);
+  color: var(--dark);
+  font-family: var(--buttons-small);
+}

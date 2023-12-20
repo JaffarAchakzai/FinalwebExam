@@ -1,0 +1,131 @@
+.widgetBase {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 5.83px;
+  background: linear-gradient(#fff, #fff), #f8f8f8;
+}
+.primaryButton,
+.secondaryButton {
+  position: absolute;
+  top: calc(50% - 4.35px);
+  left: calc(50% - 104.55px);
+  border-radius: 2.91px;
+  background-color: var(--color-deepskyblue);
+  width: 7.2px;
+  height: 77.2px;
+}
+.secondaryButton {
+  top: calc(50% - 6.55px);
+  left: calc(50% - 15.15px);
+  height: 79.4px;
+}
+.primaryButtonInactive,
+.quaternaryButtonInactive,
+.secondaryButtonInactive,
+.tertiaryButtonInactive {
+  position: absolute;
+  top: calc(50% + 40.05px);
+  left: calc(50% - 59.85px);
+  border-radius: 2.91px;
+  background-color: var(--color-deepskyblue);
+  width: 7.2px;
+  height: 32.8px;
+}
+.quaternaryButtonInactive,
+.secondaryButtonInactive,
+.tertiaryButtonInactive {
+  top: calc(50% - 2.15px);
+  left: calc(50% + 29.55px);
+  height: 75px;
+}
+.quaternaryButtonInactive,
+.tertiaryButtonInactive {
+  top: calc(50% - 34.95px);
+  left: calc(50% + 74.25px);
+  height: 107.8px;
+}
+.quaternaryButtonInactive {
+  top: calc(50% - 46.65px);
+  left: calc(50% - 82.15px);
+  height: 119.5px;
+}
+.octonaryButtonInactive,
+.quinaryButtonInactive,
+.senaryButtonInactive,
+.septenaryButtonInactive {
+  position: absolute;
+  top: calc(50% + 34.25px);
+  left: calc(50% + 7.25px);
+  border-radius: 2.91px;
+  background-color: var(--color-deepskyblue);
+  width: 7.2px;
+  height: 38.6px;
+}
+.octonaryButtonInactive,
+.senaryButtonInactive,
+.septenaryButtonInactive {
+  top: calc(50% - 57.55px);
+  left: calc(50% - 37.45px);
+  height: 130.4px;
+}
+.octonaryButtonInactive,
+.septenaryButtonInactive {
+  top: calc(50% - 72.85px);
+  left: calc(50% + 51.95px);
+  height: 145.7px;
+}
+.octonaryButtonInactive {
+  top: calc(50% + 18.95px);
+  left: calc(50% + 97.35px);
+  height: 53.9px;
+}
+.actionButton {
+  position: absolute;
+  top: calc(50% - 21.4px);
+  left: calc(50% - 105.3px);
+  width: 209.1px;
+  height: 145.7px;
+}
+.nonaryButtonInactive {
+  position: absolute;
+  top: 21.9px;
+  right: 22.3px;
+  width: 23.3px;
+  height: 23.3px;
+}
+.denaryButtonInactive {
+  position: absolute;
+  width: 56.87%;
+  top: 15.25%;
+  left: 8.58%;
+  letter-spacing: -0.3px;
+  line-height: 26px;
+  display: inline-block;
+}
+.bookmarkIcon {
+  position: absolute;
+  top: 20.4px;
+  left: 8.58%;
+  font-size: var(--label-01-size);
+  letter-spacing: -0.55px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.singleWidget {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: left;
+  font-size: var(--paragraph-02-size);
+  color: var(--dark);
+  font-family: var(--buttons-small);
+}

@@ -1,0 +1,123 @@
+.textCopyright {
+  position: absolute;
+  width: 13.14%;
+  top: calc(50% + 53.35px);
+  left: 0;
+  letter-spacing: -0.5px;
+  line-height: 24px;
+  display: inline-block;
+  height: 26px;
+  opacity: 0.5;
+}
+.iconsSocialMedia {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.buttonsSocialIcons,
+.buttonsSocialIcons1,
+.buttonsSocialIcons2 {
+  position: absolute;
+  top: 0;
+  left: 46.4px;
+  border-radius: var(--br-3xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.buttonsSocialIcons1,
+.buttonsSocialIcons2 {
+  left: 0;
+}
+.buttonsSocialIcons2 {
+  left: 92.9px;
+}
+.groupSocialButtons {
+  position: absolute;
+  top: 135.3px;
+  left: 1526px;
+  width: 132.9px;
+  height: 40px;
+  opacity: 0.5;
+}
+.groupUnspecifiedSecondary {
+  position: absolute;
+  top: 0;
+  left: 220px;
+  width: 100px;
+  height: 46px;
+  object-fit: cover;
+}
+.menuFooterItems,
+.menuFooterItems1,
+.menuFooterItems2,
+.menuFooterItems3,
+.menuFooterItems4 {
+  position: absolute;
+  top: calc(50% - 12px);
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  display: inline-block;
+  height: 24px;
+}
+.menuFooterItems {
+  width: 15.93%;
+  left: 0;
+  color: var(--color-whitesmoke-100);
+}
+.menuFooterItems1,
+.menuFooterItems2,
+.menuFooterItems3,
+.menuFooterItems4 {
+  width: 12.59%;
+  left: 49.08%;
+}
+.menuFooterItems2,
+.menuFooterItems3,
+.menuFooterItems4 {
+  width: 17.23%;
+  left: 23.89%;
+}
+.menuFooterItems3,
+.menuFooterItems4 {
+  width: 6.85%;
+  left: 69.64%;
+}
+.menuFooterItems4 {
+  width: 15.54%;
+  left: 84.46%;
+  height: 23.6px;
+}
+.menuFooter {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 27px);
+  right: 0;
+  left: 0;
+  height: 24px;
+}
+.groupFooterNav {
+  position: absolute;
+  top: 0;
+  left: 561.6px;
+  width: 539.9px;
+  height: 102px;
+  color: var(--color-gray-1100);
+}
+.groupCopyright {
+  position: absolute;
+  width: 96%;
+  top: calc(50% + 4750px);
+  right: 1.97%;
+  left: 2.03%;
+  height: 175.3px;
+  text-align: left;
+  font-size: var(--buttons-small-size);
+  color: var(--base-02);
+  font-family: var(--buttons-small);
+}

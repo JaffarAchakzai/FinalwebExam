@@ -1,0 +1,95 @@
+.textFA {
+  position: absolute;
+  height: 9.5%;
+  width: 83.41%;
+  top: 72.88%;
+  left: 0;
+  letter-spacing: -0.3px;
+  line-height: 40px;
+  font-weight: 500;
+  display: inline-block;
+}
+.rectangleFAQButton,
+.textFA1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.textFA1 {
+  margin: 0;
+  height: 68.46%;
+  font-size: var(--font-size-71xl);
+  letter-spacing: -2.4px;
+  line-height: 100px;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--color-gray-400);
+  display: inline-block;
+}
+.rectangleFAQButton {
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--color-darkslateblue-100);
+}
+.buttonText {
+  top: 27.51%;
+  font-size: var(--buttons-small-size);
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  font-family: var(--buttons-small);
+  color: var(--primary);
+  text-align: center;
+  display: none;
+}
+.buttonFAQOutline,
+.buttonText,
+.textFA2 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
+.buttonFAQOutline {
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.textFA2 {
+  top: 30.12%;
+  font-size: var(--buttons-small-size);
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  font-family: var(--buttons-small);
+  color: var(--color-whitesmoke-100);
+  text-align: center;
+  display: inline-block;
+}
+.groupFAQButtons {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  height: 11%;
+  width: 42.1%;
+  top: 89%;
+  right: 57.9%;
+  bottom: 0;
+  left: 0;
+}
+.groupFAQSection {
+  position: absolute;
+  height: 84.79%;
+  width: 32.98%;
+  top: 7.68%;
+  right: 0;
+  bottom: 7.53%;
+  left: 67.02%;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-darkgray);
+  font-family: var(--buttons-small);
+}
