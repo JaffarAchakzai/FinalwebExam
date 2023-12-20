@@ -16,6 +16,7 @@ const VideoSection = () => {
         alt=""
         src="/27-1@2x.png"
       />
+      <br/>
       <div className={styles.videoContentGroup}>
         <div className={styles.wrapperVideoTextGroup}>
           <img
